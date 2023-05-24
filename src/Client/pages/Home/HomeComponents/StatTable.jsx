@@ -22,14 +22,15 @@ const StatTable = () => {
       <span style={{ fontWeight: "600", marginRight: "25px" }}>
         Bảng thống kê
       </span>
-      <Form.Select style={{ padding: "2px" }}>
+      <div className="d-flex">
+      <Form.Select style={{ padding: "2px", maxWidth: "50%" }}>
         <option>Phòng ban</option>
         <option value="1">Sales</option>
         <option value="2">IT</option>
         <option value="3">HR</option>
       </Form.Select>
       <input type="datetime-local" style={{ marginLeft: "10px" }} />
-
+      </div>
       <div style={{ marginTop: "10px" }}>
         <Chart
           chartType="LineChart"

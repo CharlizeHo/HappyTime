@@ -55,7 +55,7 @@ class App extends React.Component {
                 <Route path="/home" index element={<Home />} />
                 <Route path="/bangCong" element={<BangCong />} />
                 <Route path="/ListTask" element={<ListTask />} />
-                <Route path="/quanLyNhanSu" element={<QuanLyNhanSu />} />
+                {/* <Route path="/quanLyNhanSu" element={<QuanLyNhanSu />} /> */}
                 <Route
                   path="/ListTask/task-assignments"
                   element={<TaskAssigned />}

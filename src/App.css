@@ -1,13 +1,14 @@
 .sidebar-content {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   margin-top: 20px;
 }
 
 .main-content {
   background-color: rgba(248, 247, 247, 0.735);
-  margin: 65px 85px 0px 65px;
-  padding-bottom: 40px;
+  /* margin: 65px 85px 0px 65px; */
+  padding-bottom: 40px;;
+  width: 95%;
 }
 
 @media all and (max-width: 780px) {
@@ -19,7 +20,6 @@
 label{
   font-weight: bold;
   margin-top: 10px;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
 }
